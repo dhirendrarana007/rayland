@@ -620,7 +620,7 @@ footer a, footer h3 {
 	}
 #collapsibleNavbar {
 	position: fixed;
-	right:-100%
+	right: -100%;
 	top: 0;
 	width: 18%;
 	height: 100%;
