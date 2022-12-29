@@ -452,6 +452,8 @@ button:focus {
 }
 .img img {
 	transition: 0.3s ease-in-out;
+	height: 360px;
+	object-fit: cover;
 }
 .img:hover img {
 	transform: scale(1.1);
@@ -484,7 +486,7 @@ button:focus {
 	height: 100%;
 }
 .section-img-bg {
-	background: url(../images/Untitled-1500-x-800-px.png);
+	background: url(../images/background-fix.webp);
 	height: 500px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -662,7 +664,10 @@ footer a, footer h3 {
 	font-weight: 600;
 	border-color: #000 !important;
 }
-
+.imgs img {
+	height: 426px;
+	object-fit: cover;
+}
 
 
 
@@ -771,7 +776,7 @@ footer a, footer h3 {
 		font-size: 10px;
 	}
 	.section-img-data h3 {
-		font-size: 20px;
+		font-size: 14px;
 		text-align: justify;
 	}
 	.section-img-data p {
@@ -794,6 +799,7 @@ footer a, footer h3 {
 	}
 	.exciting {
 		margin-bottom: 1rem;
+		height:auto;
 	}
 	.form-control::placeholder {
 		font-size: 16px;
@@ -814,6 +820,17 @@ footer a, footer h3 {
 	.excitings {
 		padding: 1rem 0 !important;
 	}
-	
+	.section-img-data small {
+		font-size: 15px;
+	}
+	.img img {
+		height: 200px;
+	}
+	.imgs img {
+		height: 216px;
+		object-fit: cover;
+	}
+
+
 	
 }
