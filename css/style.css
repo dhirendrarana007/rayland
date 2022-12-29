@@ -654,7 +654,7 @@ footer a, footer h3 {
 	place-content: center;
 }
 .contact {
-	padding: 9rem 0 0;
+	padding: 4rem 0 0;
 }
 .btn.btn-primary.news_btn {
 	background: #000 !important;
@@ -811,7 +811,9 @@ footer a, footer h3 {
 		font-size: 22px;
 		margin-bottom: 0px;
 	}
-	
+	.excitings {
+		padding: 1rem 0 !important;
+	}
 	
 	
 }
