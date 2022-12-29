@@ -830,7 +830,14 @@ footer a, footer h3 {
 		height: 216px;
 		object-fit: cover;
 	}
-
-
+	.footer-bottom-col-left.hh {
+		text-align: center;
+		margin-bottom: 0.5rem;
+	}
+	footer a {
+		margin-bottom: 0;
+		display: inline-block;
+		font-size: 14px;
+	}
 	
 }
