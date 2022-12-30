@@ -273,20 +273,18 @@ button:focus {
 	font-weight: 700;
 }
 .carousel-caption {
-	top: 40%;
-	left: 0;
+	top: unset;
+	right: 100px !important;
 	z-index: 10;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	color: #fff;
-	text-align: left;
 	right: 0;
 	text-align: center;
 	background: rgba(33,88,108,.8);
-	bottom: unset;
-	width: 30%;
-	margin: 0 auto;
-	border-radius: 8px;
+	bottom: 100px;
+	width: 20%;
+	left: unset;
 }
 .carousel-caption p {
 	margin: 0;
@@ -761,10 +759,14 @@ footer a, footer h3 {
 		padding: 2rem 0 0;
 	}
 	.carousel-caption {
-		top: 32%;
+		top: 40%;
 		width: 60%;
 		padding-top: 10px;
 		padding-bottom: 10px;
+		bottom: 40px;
+		right: 0 !important;
+		left: 0;
+		margin: 0 auto;
 	}
 	.carousel-caption h3 {
 		font-size: 14px;
@@ -837,5 +839,14 @@ footer a, footer h3 {
 		display: inline-block;
 		font-size: 14px;
 	}
+	.navbar-toggler-icon::before, .navbar-toggler-icon::after {
+		background-color: #fff;
+	}
+	.navbar-toggler-icon{
+		background-color: #fff;
+	}
+	
+	
+	
 	
 }
