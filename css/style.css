@@ -695,7 +695,10 @@ footer a, footer h3 {
 	height: 426px;
 	object-fit: cover;
 }
-
+button:focus {
+    outline: 0px dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+}
 
 
 
