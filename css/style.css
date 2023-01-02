@@ -365,11 +365,12 @@ button:focus {
 .navbar-toggler-icon::after {
 	top: 10px;
 }
-.navbar-toggler h6 {
+.navbar-toggler.collapsed h6 {
 	font-size: 16px;
-	margin-top: 3px;
+	margin-top: 14px;
 	font-weight: 600;
 	margin-bottom: 0;
+	color: #fff !important;
 }
 .navbar-toggler {
 	padding-bottom: 0;
@@ -755,20 +756,20 @@ footer a, footer h3 {
 		width: 60%;
 		height: 100%;
 		text-align: center;
-		background: #fff;
+		background: #39011e;
 		z-index: -1;
 		transition: all 0.3s ease;
 		display: block;
 		place-content: center;
 	}
 	#header .navbar-nav .nav-item a {
-		color: #0d0d0d;
+		color: #fff;
 	}
 	.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before, .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before {
-		background-color: #e8b83f;
+		background-color: #fff;
 	}
 	.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after, .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
-		background-color: #e8b83f;
+		background-color: #fff;
 	}
 	#header .navbar-nav .nav-item a.dropdown-item {
 		font-size: 13px;
@@ -877,7 +878,8 @@ footer a, footer h3 {
 		background-color: #fff;
 	}
 	.navbar-toggler {
-		padding: 0;
+		padding:0;
+		
 	}
 	.section-img img {
 		margin-bottom: 1rem;
@@ -886,5 +888,11 @@ footer a, footer h3 {
 	.section-img img {
 		margin-bottom: 1rem;
 	}
-	
+	.navbar-toggler h6 {
+		color: #fff !important;
+		margin-top: 14px;
+		font-size: 15px;
+		margin-bottom: 4px;
+		line-height: 0;
+	}
 }
