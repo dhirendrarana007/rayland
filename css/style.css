@@ -343,8 +343,8 @@ button:focus {
   right: auto;
   -webkit-transform: translateX(0%) translateY(-50%);
   transform: translateX(0%) translateY(-50%);
-  width: 38px;
-  height: 4px;
+  width: 30px;
+  height: 3px;
   background-color: #fff;
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
