@@ -232,7 +232,7 @@ button:focus {
 }
 #header .navbar.fixed-top .navbar-brand img {
   transition: all 0.5s ease;
-  max-height: 50px;
+  max-height: 40px;
   margin-left: 15px;
 }
 #header .navbar.fixed-top.fixed .navbar-brand img {
