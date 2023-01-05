@@ -474,7 +474,7 @@ button:focus {
 }
 .img img {
 	transition: 0.3s ease-in-out;
-	height: 360px;
+	height: 420px;
 	object-fit: cover;
 }
 .img:hover img {
@@ -512,11 +512,12 @@ button:focus {
 	padding: 1rem;
 }
 .section-img-bg {
-	background: url(../images/background-fix.webp);
-	height: 500px;
+	background: url(../images/10.jpg);
+	height: 550px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-position: bottom;
 }
 .section-4 {
 	padding: 0rem 0;
