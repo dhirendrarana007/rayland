@@ -233,6 +233,7 @@ button:focus {
 #header .navbar.fixed-top .navbar-brand img {
   transition: all 0.5s ease;
   max-height: 50px;
+  margin-left: 2rem;
 }
 #header .navbar.fixed-top.fixed .navbar-brand img {
   max-height: 60px;
