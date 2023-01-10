@@ -724,7 +724,9 @@ button:focus {
 .box-data img {
   width: 90px;
 }
-
+.dropdown-menu {
+  left: -170px;
+}
 /*============================================================================================*/
 /* RESPONSIVE */
 /*========================================================================================*/
@@ -853,13 +855,15 @@ button:focus {
     margin: 0 auto;
   }
   .carousel-caption h3 {
-    font-size: 10px;
+    font-size: 12px;
+    text-align: center;
   }
   .carousel-caption p {
     margin: 0;
     font-size: 10px;
     line-height: 1.2;
     font-size: 9px;
+    text-align: center;
   }
   .section-img-data h3 {
     font-size: 14px;
@@ -958,6 +962,8 @@ button:focus {
     padding: 10px 10px;
     bottom: unset;
     top: 30%;
+    width: 50% !important;
+    text-align: center;
   }
   .box-data img {
     width: 50px;
