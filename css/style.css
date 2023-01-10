@@ -287,11 +287,11 @@ button:focus {
 .carousel-caption {
   bottom: 20%;
   z-index: 10;
-  padding: 30px 20px;
+  padding: 20px 20px;
   color: #fff;
   right: 210px !important;
   background: rgba(57, 1, 30, 0.9);
-  width: 22%;
+  width: 20%;
   left: unset;
   text-align: left;
 }
@@ -721,6 +721,9 @@ button:focus {
 .video-section {
   margin-top: 3.8rem;
 }
+.box-data img {
+  width: 90px;
+}
 
 /*============================================================================================*/
 /* RESPONSIVE */
@@ -870,9 +873,10 @@ button:focus {
   }
   .section-img-dataa p {
     text-align: justify;
+    margin-top: 10px;
   }
   .section-img-dataa h3 {
-    font-size: 22px;
+    font-size: 16px;
   }
   .our-formar h3 {
     font-size: 22px;
@@ -954,5 +958,11 @@ button:focus {
     padding: 10px 10px;
     bottom: unset;
     top: 30%;
+  }
+  .box-data img {
+    width: 50px;
+  }
+  .section-2 {
+    padding: 3rem 0 0;
   }
 }
