@@ -722,7 +722,9 @@ button:focus {
   margin-top: 3.8rem;
 }
 .box-data img {
-  width: 90px;
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
 }
 .dropdown-menu {
   left: -170px;
